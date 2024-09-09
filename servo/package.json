@@ -1,0 +1,17 @@
+{
+  "name": "servo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "sudo  /home/adam/.nvm/versions/node/v22.7.0/bin/node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "raspi": "^6.0.1",
+    "raspi-soft-pwm": "^6.0.2",
+    "rpio": "^2.4.2"
+  }
+}

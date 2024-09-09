@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "runtimeExecutable": "/home/adam/.nvm/versions/node/v22.7.0/bin/node",
+            "program": "${workspaceFolder}/servo/main.js"
+        },
+        {
+            "name": "Launch with sudo",
+            "type":"node-terminal",
+            "request":"launch",
+            "command": "sudo /home/adam/.nvm/versions/node/v22.7.0/bin/node ${workspaceFolder}/servo/main.js", // Adjust the path accordingly
+        }
+    ]
+}
